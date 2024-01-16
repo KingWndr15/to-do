@@ -1,0 +1,17 @@
+:root {
+    /* color */
+    --primary: #1A1B1C;
+    --light: white;
+    --body-color: #696D71;
+    --heading-color: #1A1B1C;
+
+    /* border */
+    --tag-border-radius: 50px;
+    --input-border-radius: 12px;
+    --button-border-radius: 8px;
+
+    /* shadow */
+    --tag-box-shadow: 0px 2.1118011474609375px 4.223602294921875px 0px rgba(17, 24, 28, 0.04), 0px 1.0559005737304688px 2.1118011474609375px -1.0559005737304688px rgba(17, 24, 28, 0.08), 0px 0px 0px 1.0559005737304688px rgba(156, 163, 175, 0.17);
+
+
+}

@@ -1,0 +1,19 @@
+.gradient-text {
+    color: transparent;
+    /* background: linear-gradient(45deg, #ff69b4, #ba55d3); Example gradient */
+    background: var(--Gradient, linear-gradient(122deg, #F9C8BF 3.72%, #F87C61 19.56%, #AB26F8 84.21%, #D75EFC 100.63%));
+    background-clip: text;
+    -webkit-background-clip: text; /* For WebKit browsers */
+}
+
+
+.flow-up {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  
+  .flow-up:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.02);
+  }

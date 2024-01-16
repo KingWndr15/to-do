@@ -1,0 +1,55 @@
+@import url("variables.css");
+@import url("font.css");
+@import url("utilities.css");
+@import url("form.css");
+@import url("feel.css");
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-family);
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    background: #F8F8F8;
+}
+
+html {
+    font-family: var(--font-family);
+}
+
+main {
+    width: 90%;
+    margin: 0 auto
+}
+
+@media (max-width: 1000px) {
+    main {
+        width: 95%;
+        margin: 0 auto
+    }
+}
+
+@media(min-width: 1400px) {
+    main {
+        width: 1300px;
+        margin: 0 auto
+    }
+}
+
+.icon-large {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.captal-letters {
+    text-transform: uppercase;
+}
