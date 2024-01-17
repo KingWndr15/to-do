@@ -1,6 +1,3 @@
-Certainly! Below is a basic template for a README file for your Vue.js and Express.js Todo application. Feel free to customize it further based on your project structure, features, and additional details you'd like to include.
-
-```markdown
 # Vue.js and Express Todo Application
 
 This is a simple Todo application built using Vue.js for the frontend and Express.js for the backend, with data stored in Firebase Firestore.
@@ -78,4 +75,3 @@ This is a simple Todo application built using Vue.js for the frontend and Expres
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
